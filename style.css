@@ -123,6 +123,9 @@ main{
 
 
 .sort:focus{
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
   outline: none; /* 初期設定の青枠除去 */
   border: 1px solid #E88D80;
 }
