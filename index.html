@@ -35,8 +35,9 @@
     <div class="filter_wrapper">
 
       <!-- フィルター -->
-      <div class="filter">
-        <span>tops</span>
+      <div class="filter" id="filter">
+        <!-- jQueryで記入代用 -->
+        <!-- <span>tops</span>
         <span>bottoms</span>
         <span>one-piece</span>
         <span>outer</span>
@@ -45,7 +46,7 @@
         <span>bag</span>
         <span>leg-wear</span>
         <span>accessory</span>
-        <span>other</span>
+        <span>other</span> -->
       </div>
 
       <!-- ソート -->
@@ -66,95 +67,100 @@
 
     <!-- アイテムコンテンツ -->
 
-    <!-- カテゴリー区分 -->
-    <div class="category_bar"><span>ここに表示</span></div>
+    <div class="category-wrapper">
 
-    <!-- 登録商品 -->
+      <!-- カテゴリー区分 -->
+       <!-- jQueryで記入代用 -->
+      <!-- <div class="category_bar">
+        <span>tops</span>
+      </div> -->
 
+      <!-- 登録商品 -->
+      <!-- jQueryで記入代用 -->
+      <!-- <ul class="product-list">
 
-    <ul class="product-list">
-
-      <li>
-        <div class="product-item">
-          <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
-          <div class="product-item__info">
-            <p class="product-item__brand">ブランド名（●文字まで）</p>
-            <p class="product-item__name" >アイテム名（●文字まで）</p>
-            <p class="product-item__sku" >サイズ / カラー</p>
-            <div class="product-item__desc_wrapper">
-              <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
-              <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
-              <div class="product-item__bar"></div>
-            </div>
-            <div class="btn-itemdetail_wrapper">
-              <a href="#" class="btn-itemdetail">このアイテムを見る</a>
-            </div>
-          </div>
-        </div>
-      </li>
-
-      <li>
-        <div class="product-item">
-          <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
-          <div class="product-item__info">
-            <p class="product-item__brand">ブランド名（●文字まで）</p>
-            <p class="product-item__name" >アイテム名（●文字まで）</p>
-            <p class="product-item__sku" >サイズ / カラー</p>
-            <div class="product-item__desc_wrapper">
-              <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
-              <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
-              <div class="product-item__bar"></div>
-            </div>
-            <div class="btn-itemdetail_wrapper">
-              <a href="#" class="btn-itemdetail">このアイテムを見る</a>
+        <li>
+          <div class="product-item">
+            <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
+            <div class="product-item__info">
+              <p class="product-item__brand">ブランド名（●文字まで）</p>
+              <p class="product-item__name" >アイテム名（●文字まで）</p>
+              <p class="product-item__sku" >サイズ / カラー</p>
+              <div class="product-item__desc_wrapper">
+                <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
+                <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
+                <div class="product-item__bar"></div>
+              </div>
+              <div class="btn-itemdetail_wrapper">
+                <a href="#" class="btn-itemdetail">このアイテムを見る</a>
+              </div>
             </div>
           </div>
-        </div>
-      </li>
+        </li>
 
-
-      <li>
-        <div class="product-item">
-          <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
-          <div class="product-item__info">
-            <p class="product-item__brand">ブランド名（●文字まで）</p>
-            <p class="product-item__name" >アイテム名（●文字まで）</p>
-            <p class="product-item__sku" >サイズ / カラー</p>
-            <div class="product-item__desc_wrapper">
-              <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
-              <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
-              <div class="product-item__bar"></div>
-            </div>
-            <div class="btn-itemdetail_wrapper">
-              <a href="#" class="btn-itemdetail">このアイテムを見る</a>
-            </div>
-          </div>
-        </div>
-      </li>
-
-
-      <li>
-        <div class="product-item">
-          <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
-          <div class="product-item__info">
-            <p class="product-item__brand">ブランド名（●文字まで）</p>
-            <p class="product-item__name" >アイテム名（●文字まで）</p>
-            <p class="product-item__sku" >サイズ / カラー</p>
-            <div class="product-item__desc_wrapper">
-              <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
-              <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
-              <div class="product-item__bar"></div>
-            </div>
-            <div class="btn-itemdetail_wrapper">
-              <a href="#" class="btn-itemdetail">このアイテムを見る</a>
+        <li>
+          <div class="product-item">
+            <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
+            <div class="product-item__info">
+              <p class="product-item__brand">ブランド名（●文字まで）</p>
+              <p class="product-item__name" >アイテム名（●文字まで）</p>
+              <p class="product-item__sku" >サイズ / カラー</p>
+              <div class="product-item__desc_wrapper">
+                <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
+                <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
+                <div class="product-item__bar"></div>
+              </div>
+              <div class="btn-itemdetail_wrapper">
+                <a href="#" class="btn-itemdetail">このアイテムを見る</a>
+              </div>
             </div>
           </div>
-        </div>
-      </li>
+        </li>
 
 
-    </ul>
+        <li>
+          <div class="product-item">
+            <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
+            <div class="product-item__info">
+              <p class="product-item__brand">ブランド名（●文字まで）</p>
+              <p class="product-item__name" >アイテム名（●文字まで）</p>
+              <p class="product-item__sku" >サイズ / カラー</p>
+              <div class="product-item__desc_wrapper">
+                <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
+                <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
+                <div class="product-item__bar"></div>
+              </div>
+              <div class="btn-itemdetail_wrapper">
+                <a href="#" class="btn-itemdetail">このアイテムを見る</a>
+              </div>
+            </div>
+          </div>
+        </li>
 
+
+        <li>
+          <div class="product-item">
+            <div class="product-item__img"><img src="img/item/bg_upload.png" alt="アイテム画像"></div>
+            <div class="product-item__info">
+              <p class="product-item__brand">ブランド名（●文字まで）</p>
+              <p class="product-item__name" >アイテム名（●文字まで）</p>
+              <p class="product-item__sku" >サイズ / カラー</p>
+              <div class="product-item__desc_wrapper">
+                <p class="product-item__desc">顧客記入アイテム名メモ顧客記入アイテム名メモ顧客記入アイテム名メモ</p>
+                <img src="img/icon_pencil.svg" alt="鉛筆" class="name_edit">
+                <div class="product-item__bar"></div>
+              </div>
+              <div class="btn-itemdetail_wrapper">
+                <a href="#" class="btn-itemdetail">このアイテムを見る</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+
+      </ul> -->
+
+    </div>
 
 
 
@@ -202,6 +208,9 @@
   <!-- JQueryが先!! -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!-- 次にJS! -->
-  <script src="js.js"></script>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+
+
 </body>
 </html>
